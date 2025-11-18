@@ -22,6 +22,17 @@ Displays the results clearly after the operation.
 Only `<iostream>` and `<array>` are used.  
 Sorting is done manually using nested loops.
 
+## Reflection
+
+I originally forgot to include <array>, which caused compiler errors.
+
+I first tried to use std::sort() but then realized it wasn’t allowed for this assignment.
+
+My duplicate-checking didn’t work at first because I forgot to decrement i after a duplicate.
+
+I mixed up the comparison signs in descending sort (> vs <).
+After fixing the condition, the sorting worked correctly.
+
 ---
 
 ##  C++ Source Code
@@ -119,15 +130,3 @@ int main() {
 
     return 0;
 }
-
-
-##Reflection
-
-I originally forgot to include <array>, which caused compiler errors.
-
-I first tried to use std::sort() but then realized it wasn’t allowed for this assignment.
-
-My duplicate-checking didn’t work at first because I forgot to decrement i after a duplicate.
-
-I mixed up the comparison signs in descending sort (> vs <).
-After fixing the condition, the sorting worked correctly.
